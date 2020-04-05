@@ -7,10 +7,7 @@ Camera
 
 Renderer
 {
-	rendererType Tiled
-	resolution 1280 720
-	maxSamples 500
-	maxDepth 4
+	maxDepth 2
 	numTilesX 5
 	numTilesY 5
 }

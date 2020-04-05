@@ -1,0 +1,46 @@
+Renderer
+{
+	maxDepth 3
+	numTilesX 5
+	numTilesY 5
+	envMap ./assets/CoffeeCart/textures/photo_studio_01_1k.hdr
+}
+
+Camera
+{
+	position 0.3 0.11 0.0
+	lookAt 0.2 0.095 0
+	fov 35
+}
+
+material machine
+{
+	color 1.0 1.0 1.0 
+	materialType 0.0
+	ior 1.45
+	albedoTexture ./assets/CoffeeCart/textures/base1.png
+	metallicRoughnessTexture ./assets/CoffeeCart/textures/matrgh1.png
+	normalTexture ./assets/CoffeeCart/textures/nrm1.png
+}
+
+material kitchen
+{
+	color 1.0 1.0 1.0
+	materialType 0.0
+	ior 1.45
+	albedoTexture ./assets/CoffeeCart/textures/base2.png
+	metallicRoughnessTexture ./assets/CoffeeCart/textures/matrgh2.png
+	normalTexture ./assets/CoffeeCart/textures/nrm2.png
+}
+
+mesh
+{
+	file ./assets/CoffeeCart/CoffeeCart_01.obj
+	material kitchen
+}
+
+mesh
+{
+	file ./assets/CoffeeCart/CoffeeCart_02.obj
+	material machine
+}

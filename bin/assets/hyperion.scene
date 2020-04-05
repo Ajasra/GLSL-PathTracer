@@ -1,11 +1,8 @@
 Renderer
 {
-	rendererType Tiled
-	resolution 1280 720
-	maxSamples 2000
-	maxDepth 10
-	numTilesX 5
-	numTilesY 5
+	maxDepth 4
+	numTilesX 4
+	numTilesY 4
 }
 
 Camera
@@ -67,80 +64,241 @@ material marb2
 
 mesh
 {
-	file ./assets/checks/hyperion/glass.obj
+	file ./assets/hyperion/glass.obj
 	material glass
 }
 
 #mesh
 {
-	file ./assets/checks/hyperion/dragon.obj
+	file ./assets/hyperion/dragon.obj
 #	material glass
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/chrome.obj
+	file ./assets/hyperion/chrome.obj
 	material silver
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/plate.obj
+	file ./assets/hyperion/plate.obj
 	material cream
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/floor.obj
+	file ./assets/hyperion/floor.obj
 	material cream
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/orange.obj
+	file ./assets/hyperion/orange.obj
 	material orangish
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/ring1.obj
+	file ./assets/hyperion/ring1.obj
 	material ring_silver
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/ring2.obj
+	file ./assets/hyperion/ring2.obj
 	material ring_silver
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/ring3.obj
+	file ./assets/hyperion/ring3.obj
 	material ring_silver
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/marb1.obj
+	file ./assets/hyperion/marb1.obj
 	material marb1
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/marb2.obj
+	file ./assets/hyperion/marb2.obj
 	material marb2
 }
 
 mesh
 {
-	file ./assets/checks/hyperion/pingpong.obj
+	file ./assets/hyperion/pingpong.obj
 	material ping
 }
 
 light
 {
+	type Quad
+	position -2.04973 5 -8
+	v1 2.040 5 -8  
+	v2 -2.04973 5 -7.5      
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 -7
+	v1 2.040 5 -7  
+	v2 -2.04973 5 -6.5      
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 -6
+	v1 2.040 5 -6
+	v2 -2.04973 5 -5.5      
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 -5
+	v1 2.040 5 -5
+	v2 -2.04973 5 -4.5      
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 -4
+	v1 2.040 5 -4
+	v2 -2.04973 5 -3.5     
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 -3
+	v1 2.040 5 -3 
+	v2 -2.04973 5 -2.5    
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 -2
+	v1 2.040 5 -2 
+	v2 -2.04973 5 -1.5      
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 -1
+	v1 2.040 5 -1 
+	v2 -2.04973 5 -0.5     
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 0
+	v1 2.040 5 0 
+	v2 -2.04973 5 0.5    
+	emission 5 5 5 
+}
+
+
+light
+{
+	type Quad
+	position -2.04973 5 1
+	v1 2.040 5 1 
+	v2 -2.04973 5 1.5 
+	emission 5 5 5 
+}
+
+
+light
+{
+	type Quad
+	position -2.04973 5 2
+	v1 2.040 5 2 
+	v2 -2.04973 5 2.5   
+	emission 5 5 5 
+}
+
+
+light
+{
+	type Quad
+	position -2.04973 5 3
+	v1 2.040 5 3
+	v2 -2.04973 5 3.5     
+	emission 5 5 5 
+}
+
+
+light
+{
+	type Quad
+	position -2.04973 5 4
+	v1 2.040 5 4
+	v2 -2.04973 5 4.5    
+	emission 5 5 5 
+}
+
+
+light
+{
+	type Quad
+	position -2.04973 5 5
+	v1 2.040 5 5
+	v2 -2.04973 5 5.5     
+	emission 5 5 5 
+}
+
+light
+{
+	type Quad
+	position -2.04973 5 6
+	v1 2.040 5 6
+	v2 -2.04973 5 6.5     
+	emission 5 5 5 
+}
+
+
+light
+{
+	type Quad
+	position -2.04973 5 7
+	v1 2.040 5 7
+	v2 -2.04973 5 7.5     
+	emission 5 5 5 
+}
+
+
+light
+{
+	type Quad
+	position -2.04973 5 8
+	v1 2.040 5 8
+	v2 -2.04973 5 8.5     
+	emission 5 5 5 
+}
+
+
+#light
+{
+	type Sphere
 	emission 80.0 80.0 80.0
 	position 0 390.0 -439.0
 	radius 60.0
-	type Sphere
 }

@@ -1,9 +1,6 @@
 Renderer
 {
-	rendererType Tiled
-	resolution 360 640
-	maxSamples 100
-	maxDepth 10
+	maxDepth 4
 	numTilesX 5
 	numTilesY 5
 }
