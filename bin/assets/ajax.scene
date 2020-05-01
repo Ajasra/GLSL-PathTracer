@@ -1,12 +1,10 @@
 Renderer
 {
-	rendererType Tiled
 	resolution 900 900
-	maxSamples 50
-	maxDepth 4
+	maxDepth 2
 	numTilesX 5
 	numTilesY 5
-	envMap ./assets/ajax/sunset.hdr
+	envMap ./assets/HDR/sunset.hdr
 	hdrMultiplier 5.0
 }
 

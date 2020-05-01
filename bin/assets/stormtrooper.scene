@@ -1,8 +1,18 @@
 Renderer
 {
+	resolution 1280 720
 	maxDepth 2
 	numTilesX 5
 	numTilesY 5
+}
+
+Camera
+{
+	position -0.2 -0.5 5.5
+	lookAt 0.25 -0.3 0
+	fov 35
+	aperture 0.002
+	focaldist 4.8
 }
 
 material white

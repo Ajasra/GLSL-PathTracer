@@ -1,14 +1,15 @@
 Renderer
 {
-	maxDepth 4
+	resolution 700 900
+	maxDepth 5
 	numTilesX 5
 	numTilesY 5
 }
 
 Camera
 {
-	position 0 0.28 0.7
-	lookAt 0 0.1 -0.7
+	position 0 0.26 0.7
+	lookAt 0 0.16 -0.1
 	fov 35
 }
 
@@ -46,121 +47,121 @@ material Floor
 
 mesh
 {
-	file  ./assets/coffee/Mesh003.obj
+	file  ./assets/coffee_maker/Mesh003.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh005.obj
+	file  ./assets/coffee_maker/Mesh005.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh007.obj
+	file  ./assets/coffee_maker/Mesh007.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh008.obj
+	file  ./assets/coffee_maker/Mesh008.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh011.obj
+	file  ./assets/coffee_maker/Mesh011.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh013.obj
+	file  ./assets/coffee_maker/Mesh013.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh014.obj
+	file  ./assets/coffee_maker/Mesh014.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh017.obj
+	file  ./assets/coffee_maker/Mesh017.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh018.obj
+	file  ./assets/coffee_maker/Mesh018.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh019.obj
+	file  ./assets/coffee_maker/Mesh019.obj
 	material Plastic_Black
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh000.obj
+	file  ./assets/coffee_maker/Mesh000.obj
 	material Plastic_Orange
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh001.obj
+	file  ./assets/coffee_maker/Mesh001.obj
 	material Plastic_Orange
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh006.obj
+	file  ./assets/coffee_maker/Mesh006.obj
 	material Plastic_Orange
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh009.obj
+	file  ./assets/coffee_maker/Mesh009.obj
 	material Plastic_Orange
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh012.obj
+	file  ./assets/coffee_maker/Mesh012.obj
 	material Plastic_Orange
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh016.obj
+	file  ./assets/coffee_maker/Mesh016.obj
 	material Plastic_Orange
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh010.obj
+	file  ./assets/coffee_maker/Mesh010.obj
 	material Glass
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh002.obj
+	file  ./assets/coffee_maker/Mesh002.obj
 	material Metal
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh015.obj
+	file  ./assets/coffee_maker/Mesh015.obj
 	material Metal
 }
 
 mesh
 {
-	file  ./assets/coffee/Mesh004.obj
+	file  ./assets/coffee_maker/Mesh004.obj
 	material Floor
 }
 

@@ -1,17 +1,17 @@
 Renderer
 {
-	rendererType Progressive
 	resolution 700 700
-	maxSamples 500
-	maxDepth 5
+	maxDepth 2
 	numTilesX 5
 	numTilesY 5
+	envMap ./assets/HDR/sunset.hdr
+	hdrMultiplier 2.0
 }
 
 Camera
 {
 	position 27.6 27.5 -75
-	lookAt 27.6 27.5 75
+	lookAt 27.6 27.5 10
 	fov 39.3077
 }
 

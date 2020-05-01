@@ -1,14 +1,15 @@
 Renderer
 {
-	maxDepth 3
+	resolution 1280 720
+	maxDepth 5
 	numTilesX 5
 	numTilesY 5
 }
 
 Camera
 {
-	position 0.0 1.0 5.0
-	lookAt 0.0 1.0 -1.0
+	position 0.0 1.0 4.0
+	lookAt 0.0 1.0 -0.5
 	fov 35
 }
 
@@ -108,518 +109,518 @@ light
 
 mesh
 {
-	file ./assets/ship/Mesh050.obj
+	file ./assets/spaceship/Mesh050.obj
 	material Backdrop
 }
 
 mesh
 {
-	file ./assets/ship/Mesh042.obj
+	file ./assets/spaceship/Mesh042.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh038.obj
+	file ./assets/spaceship/Mesh038.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh040.obj
+	file ./assets/spaceship/Mesh040.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh072.obj
+	file ./assets/spaceship/Mesh072.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh027.obj
+	file ./assets/spaceship/Mesh027.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh067.obj
+	file ./assets/spaceship/Mesh067.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh060.obj
+	file ./assets/spaceship/Mesh060.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh065.obj
+	file ./assets/spaceship/Mesh065.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh048.obj
+	file ./assets/spaceship/Mesh048.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh066.obj
+	file ./assets/spaceship/Mesh066.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh046.obj
+	file ./assets/spaceship/Mesh046.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh076.obj
+	file ./assets/spaceship/Mesh076.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh059.obj
+	file ./assets/spaceship/Mesh059.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh057.obj
+	file ./assets/spaceship/Mesh057.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh062.obj
+	file ./assets/spaceship/Mesh062.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh074.obj
+	file ./assets/spaceship/Mesh074.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh075.obj
+	file ./assets/spaceship/Mesh075.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh078.obj
+	file ./assets/spaceship/Mesh078.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh081.obj
+	file ./assets/spaceship/Mesh081.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh034.obj
+	file ./assets/spaceship/Mesh034.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh084.obj
+	file ./assets/spaceship/Mesh084.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh085.obj
+	file ./assets/spaceship/Mesh085.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh073.obj
+	file ./assets/spaceship/Mesh073.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh077.obj
+	file ./assets/spaceship/Mesh077.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh087.obj
+	file ./assets/spaceship/Mesh087.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh052.obj
+	file ./assets/spaceship/Mesh052.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh025.obj
+	file ./assets/spaceship/Mesh025.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh024.obj
+	file ./assets/spaceship/Mesh024.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh086.obj
+	file ./assets/spaceship/Mesh086.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh023.obj
+	file ./assets/spaceship/Mesh023.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh021.obj
+	file ./assets/spaceship/Mesh021.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh039.obj
+	file ./assets/spaceship/Mesh039.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh020.obj
+	file ./assets/spaceship/Mesh020.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh032.obj
+	file ./assets/spaceship/Mesh032.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh018.obj
+	file ./assets/spaceship/Mesh018.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh070.obj
+	file ./assets/spaceship/Mesh070.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh016.obj
+	file ./assets/spaceship/Mesh016.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh015.obj
+	file ./assets/spaceship/Mesh015.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh054.obj
+	file ./assets/spaceship/Mesh054.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh013.obj
+	file ./assets/spaceship/Mesh013.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh079.obj
+	file ./assets/spaceship/Mesh079.obj
 	material RoughAluminium
 }
 
 
 mesh
 {
-	file ./assets/ship/Mesh041.obj
+	file ./assets/spaceship/Mesh041.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh012.obj
+	file ./assets/spaceship/Mesh012.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh011.obj
+	file ./assets/spaceship/Mesh011.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh010.obj
+	file ./assets/spaceship/Mesh010.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh083.obj
+	file ./assets/spaceship/Mesh083.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh069.obj
+	file ./assets/spaceship/Mesh069.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh009.obj
+	file ./assets/spaceship/Mesh009.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh007.obj
+	file ./assets/spaceship/Mesh007.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh017.obj
+	file ./assets/spaceship/Mesh017.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh037.obj
+	file ./assets/spaceship/Mesh037.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh005.obj
+	file ./assets/spaceship/Mesh005.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh004.obj
+	file ./assets/spaceship/Mesh004.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh002.obj
+	file ./assets/spaceship/Mesh002.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh056.obj
+	file ./assets/spaceship/Mesh056.obj
 	material RoughAluminium
 }
 
 mesh
 {
-	file ./assets/ship/Mesh033.obj
+	file ./assets/spaceship/Mesh033.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh064.obj
+	file ./assets/spaceship/Mesh064.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh058.obj
+	file ./assets/spaceship/Mesh058.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh026.obj
+	file ./assets/spaceship/Mesh026.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh047.obj
+	file ./assets/spaceship/Mesh047.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh071.obj
+	file ./assets/spaceship/Mesh071.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh019.obj
+	file ./assets/spaceship/Mesh019.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh006.obj
+	file ./assets/spaceship/Mesh006.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh008.obj
+	file ./assets/spaceship/Mesh008.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh045.obj
+	file ./assets/spaceship/Mesh045.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh049.obj
+	file ./assets/spaceship/Mesh049.obj
 	material RoughSteel
 }
 
 
 mesh
 {
-	file ./assets/ship/Mesh014.obj
+	file ./assets/spaceship/Mesh014.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh003.obj
+	file ./assets/spaceship/Mesh003.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh051.obj
+	file ./assets/spaceship/Mesh051.obj
 	material RoughSteel
 }
 
 mesh
 {
-	file ./assets/ship/Mesh001.obj
+	file ./assets/spaceship/Mesh001.obj
 	material Glass
 }
 
 mesh
 {
-	file ./assets/ship/Mesh055.obj
+	file ./assets/spaceship/Mesh055.obj
 	material RedLeather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh036.obj
+	file ./assets/spaceship/Mesh036.obj
 	material RedLeather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh031.obj
+	file ./assets/spaceship/Mesh031.obj
 	material RedLeather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh022.obj
+	file ./assets/spaceship/Mesh022.obj
 	material RedLeather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh053.obj
+	file ./assets/spaceship/Mesh053.obj
 	material DarkPlastic
 }
 
 mesh
 {
-	file ./assets/ship/Mesh061.obj
+	file ./assets/spaceship/Mesh061.obj
 	material DarkPlastic
 }
 
 mesh
 {
-	file ./assets/ship/Mesh035.obj
+	file ./assets/spaceship/Mesh035.obj
 	material PinkLeather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh030.obj
+	file ./assets/spaceship/Mesh030.obj
 	material PinkLeather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh000.obj
+	file ./assets/spaceship/Mesh000.obj
 	material BrightPinkLeather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh044.obj
+	file ./assets/spaceship/Mesh044.obj
 	material Leather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh028.obj
+	file ./assets/spaceship/Mesh028.obj
 	material Leather
 }
 
 mesh
 {
-	file ./assets/ship/Mesh063.obj
+	file ./assets/spaceship/Mesh063.obj
 	material DarkRubber
 }
 
 mesh
 {
-	file ./assets/ship/Mesh068.obj
+	file ./assets/spaceship/Mesh068.obj
 	material DarkRubber
 }
 
 mesh
 {
-	file ./assets/ship/Mesh029.obj
+	file ./assets/spaceship/Mesh029.obj
 	material Light2
 }
 
 mesh
 {
-	file ./assets/ship/Mesh043.obj
+	file ./assets/spaceship/Mesh043.obj
 	material Light1
 }

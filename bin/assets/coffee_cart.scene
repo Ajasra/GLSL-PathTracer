@@ -1,0 +1,48 @@
+Renderer
+{
+	resolution 1280 720
+	maxDepth 2
+	numTilesX 5
+	numTilesY 5
+	envMap ./assets/HDR/sunset.hdr
+	hdrMultiplier 5.0
+}
+
+Camera
+{
+	position 0 1.5 2.5
+	lookAt 0 1 0
+	fov 35
+}
+
+material machine
+{
+	color 1.0 1.0 1.0 
+	materialType 0.0
+	ior 1.45
+	albedoTexture ./assets/coffee_cart/textures/base1.png
+	metallicRoughnessTexture ./assets/coffee_cart/textures/matrgh1.png
+	normalTexture ./assets/coffee_cart/textures/nrm1.png
+}
+
+material kitchen
+{
+	color 1.0 1.0 1.0
+	materialType 0.0
+	ior 1.45
+	albedoTexture ./assets/coffee_cart/textures/base2.png
+	metallicRoughnessTexture ./assets/coffee_cart/textures/matrgh2.png
+	normalTexture ./assets/coffee_cart/textures/nrm2.png
+}
+
+mesh
+{
+	file ./assets/coffee_cart/CoffeeCart_01.obj
+	material kitchen
+}
+
+mesh
+{
+	file ./assets/coffee_cart/CoffeeCart_02.obj
+	material machine
+}

@@ -1,3 +1,19 @@
+Renderer
+{
+	resolution 1270 720
+	maxDepth 3
+	numTilesX 5
+	numTilesY 5
+}
+
+Camera
+{
+	position 3 1.5 3.8
+	lookAt 0.0 1.0 0.31
+	fov 35
+}
+
+
 material Boxes
 {
 	color 0.483044 0.384664 0.301561
@@ -60,21 +76,8 @@ material DecoPlant
 	color 0.041772 0.011306 0.007575
 }
 
-material Painting1
+material Black
 {
-	albedoTexture ./assets/bedroom/textures/painting1.jpg
-	color 0.015396 0.015396 0.015396
-}
-
-material Painting2
-{
-	albedoTexture ./assets/bedroom/textures/painting2.jpg
-	color 0.015396 0.015396 0.015396
-}
-
-material Painting3
-{
-	albedoTexture ./assets/bedroom/textures/painting3.jpg
 	color 0.015396 0.015396 0.015396
 }
 
@@ -436,19 +439,19 @@ mesh
 mesh
 {
 	file ./assets/bedroom/Mesh018.obj
-	material Painting1
+	material Black
 }
 
 mesh
 {
 	file ./assets/bedroom/Mesh017.obj
-	material Painting2
+	material Black
 }
 
 mesh
 {
 	file ./assets/bedroom/Mesh069.obj
-	material Painting3
+	material Black
 }
 
 mesh

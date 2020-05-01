@@ -1,5 +1,6 @@
 Renderer
 {
+	resolution 1280 720
 	maxDepth 4
 	numTilesX 4
 	numTilesY 4
