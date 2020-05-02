@@ -10,56 +10,48 @@ Camera
 {
 	position -0.2 -0.5 5.5
 	lookAt 0.25 -0.3 0
-	fov 35
+	fov 60
 	aperture 0.002
 	focaldist 4.8
 }
 
-material white
+material white_helmet
 {
 	color 1.0 1.0 1.0
-	roughness 0.01
-	specular 1.0
-	metallic 0.4
+	metallic 0.001
+	roughness 0.001
 }
 
-material grey
+material white_box
 {
-	color 0.17 0.17 0.17
-	specular 0.0
+	color 1.0 1.0 1.0
 	roughness 1.0
 }
 
-material grey1
-{
-	color 1.0 1.0 1.0
-	specular 0.0
-	roughness 1.0
-}
-
-material black
+material black_visor
 {
 	color 0.0 0.0 0.0
-	specular 0.0
+	metallic 1.0
+	roughness 0.001
 }
 
 
 mesh
 {
 	file ./assets/stormtrooper/box.obj
-	material grey1
+	material white_box
 }
 
 mesh
 {
 	file ./assets/stormtrooper/frame.obj
-	material black
+	material black_visor
 }
 
 mesh
 {
 	file ./assets/stormtrooper/helmets.obj
-	material white
+	material white_helmet
 }
 
 light

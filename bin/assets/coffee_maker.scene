@@ -10,7 +10,7 @@ Camera
 {
 	position 0 0.26 0.7
 	lookAt 0 0.16 -0.1
-	fov 35
+	fov 30
 }
 
 material Plastic_Orange

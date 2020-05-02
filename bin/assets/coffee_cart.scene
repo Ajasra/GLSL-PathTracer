@@ -12,7 +12,7 @@ Camera
 {
 	position 0 1.5 2.5
 	lookAt 0 1 0
-	fov 35
+	fov 60
 }
 
 material machine

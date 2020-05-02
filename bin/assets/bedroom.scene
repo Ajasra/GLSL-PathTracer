@@ -10,7 +10,7 @@ Camera
 {
 	position 3 1.5 3.8
 	lookAt 0.0 1.0 0.31
-	fov 35
+	fov 60
 }
 
 
